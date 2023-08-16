@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+:root{
+    --pink: #f6706fdb;
+    --dark: #1b1515;
+    --light-dark: #232323e5;
+}
+body{
+    background-color: var(--light-dark);
+}
+.bg-dark ,.card{
+    background-color: var(--dark) !important;
+}
+.nav-link:hover{
+    color: var(--pink) !important;
+    border: 1px solid var(--pink);
+    border-radius: 6px;
+}
+.dropdown-menu{
+    background-color: var(--light-dark) ;
+    border-top: 3px solid var(--pink); 
+}
+.dropdown-item:hover {
+    background-color: var(--pink);
+}
+.bg-primary ,.btn-primary ,.form-check-input:checked{
+    background-color: var(--pink) !important;
+    border-color:var(--pink) !important;
+}
+.modal-body, .welcom-title{
+    color: var(--pink);
+}
+.carousel-caption{
+    background: #f6706f57 ;
+    border-radius: 10px;
+}
+.links-overlay{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 30px 25px 0;
+}
+.links-overlay a{
+    display: block;
+    color: var(--pink);
+    line-height: 70px;
+    font-size: 50px;
+}
+.links-overlay a:hover {
+    color: #ff5b5bf6;
+}
+.accordion-body{
+    background-color: var(--light-dark);
+}
+.card-content:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top:0;
+    left: 0;
+    background-color:#f66f6f31;
+    border-radius: 5px;
+    transition: 1s;
+}
+.card-content:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.card-content:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color:#f66f6f31;
+    border-radius: 5px;
+    transition: 1s;
+}
+.card-content:hover::before{
+    width: 100%;
+    height: 100%;
+}
+.card-body{
+    z-index: 2;
+}
+.thankes-card:hover ,.image-ico:hover{
+    transform: scale(.9,.9);
+    transition: .5s;
+}
+.thankes-card:hover .person-card-overlay{
+    background-color: rgba(185, 47, 47, 0.322) !important;
+}
+.card-link:hover{
+    color: green !important;
+}
+@media  (max-width: 600px) {
+    .carousel-item img{
+        height: 510px !important;
+    }
+    .links-overlay{
+        padding:0 50px 30% 0 ;
+    }
+    .links-overlay a{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .news-img{
+        clip-path: none !important;
+    }
+    .news-imggg{
+        border-radius:  10px 10px 0 0 !important;
+    }
+}
