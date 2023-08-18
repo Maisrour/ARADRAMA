@@ -119,8 +119,7 @@ body{
 .card-link:hover{
     color: green !important;
 }
-/*
-@media  (max-width: 600px) {
+@media  (max-width: 991px) {
     .carousel-item img{
         height: 510px !important;
     }
@@ -131,7 +130,7 @@ body{
         font-size: 45px;
         line-height: 60px;
     }
-    .news-img{
+    .news-img1, .news-img2{
         clip-path: none !important;
     }
     .img-item{
