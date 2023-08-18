@@ -60,6 +60,9 @@ body{
 .accordion-body{
     background-color: var(--light-dark);
 }
+.card-content{
+    min-height: 90%;
+}
 .card-content:after {
     content: "";
     position: absolute;
