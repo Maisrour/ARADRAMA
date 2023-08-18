@@ -124,7 +124,10 @@ body{
         height: 150px !important
     }
     nav img{
-        width: 50px !important;
+        width: 200px !important;
+    }
+    nav a{
+        font-size: 35px !important;
     }
     .fa-solid{
         font-size: 40px !important;
