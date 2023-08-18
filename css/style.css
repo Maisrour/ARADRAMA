@@ -124,11 +124,11 @@ body{
         height: 510px !important;
     }
     .links-overlay{
-        padding:0 50px 45% 0  !important;
+        padding:0 50px 60% 0  !important;
     }
     .links-overlay a{
-        font-size: 50px  !important;
-        line-height: 70px !important;
+        font-size: 55px  !important;
+        line-height: 100px !important;
     }
     .news-img1, .news-img2{
         clip-path: none !important;
