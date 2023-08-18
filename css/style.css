@@ -135,6 +135,9 @@ body{
     .carousel-item img{
         height: 510px !important;
     }
+    .btt{
+        font-size: 45px !important;
+    }
     .links-overlay{
         padding:0 50px 60% 0  !important;
     }
