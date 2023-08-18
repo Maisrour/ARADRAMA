@@ -60,9 +60,6 @@ body{
 .accordion-body{
     background-color: var(--light-dark);
 }
-.card-content{
-    min-height: 90%;
-}
 .card-content:after {
     content: "";
     position: absolute;
@@ -114,7 +111,7 @@ body{
 .card-link:hover{
     color: green !important;
 }
-
+/*
 @media  (max-width: 600px) {
     .carousel-item img{
         height: 510px !important;
