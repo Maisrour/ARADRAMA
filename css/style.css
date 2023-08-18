@@ -60,6 +60,13 @@ body{
 .accordion-body{
     background-color: var(--light-dark);
 }
+.background{
+    background-image: url(images/background1.jpg); 
+    min-height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
 .card-content:after {
     content: "";
     position: absolute;
