@@ -121,10 +121,13 @@ body{
 }
 @media  (max-width: 991px) {
     nav{
-        height: 90px
+        height: 150px !important
+    }
+    nav img{
+        width: 50px !important;
     }
     .fa-solid{
-        font-size: 35px;
+        font-size: 40px !important;
     }
     .carousel-item img{
         height: 510px !important;
